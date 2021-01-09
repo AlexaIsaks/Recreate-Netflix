@@ -1,0 +1,16 @@
+//Form component
+.form {
+    width: 100%;
+}
+
+.form__title {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.form__email-container {
+    @include dflex-center;
+}
+
+
+

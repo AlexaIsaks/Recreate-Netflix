@@ -1,0 +1,23 @@
+//Footer component
+.footer {
+    @include dflex-center;
+    padding:  4rem 0 2rem 0;
+}
+
+.footer__container {
+    width: 55rem;   
+}
+
+.footer__questions {
+    font-size: 0.95rem;
+    color: $text-secondary;
+}
+
+.footer__telephone {
+    color: $text-secondary;
+}
+
+.footer__nf-site-link {
+    font-size: 0.81rem;
+    color: $text-secondary;
+}

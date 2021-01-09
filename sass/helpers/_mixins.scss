@@ -1,0 +1,15 @@
+//Center block, elements, container, wrapper
+@mixin dflex-center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+//Layout using flexbox
+@mixin dflex($direction, $wrap, $justify-content, $align-items) {
+  display: flex;
+  flex-flow: $direction $wrap;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}

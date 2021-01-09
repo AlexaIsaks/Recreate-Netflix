@@ -1,0 +1,6 @@
+//Page header component
+.header {
+    @include dflex(row, wrap, space-between, center);
+    padding: 2rem 2.8rem 0 2.8rem;
+}
+

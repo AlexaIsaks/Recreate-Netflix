@@ -1,0 +1,15 @@
+//Navigation component
+.nav {
+    @include dflex(row, wrap, space-between, center);
+}
+
+.nav__group {
+    width: 10rem;
+}
+
+.nav__link {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-size: 0.81rem;
+    color: $text-secondary;
+}

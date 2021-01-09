@@ -1,0 +1,29 @@
+//Button component
+.button {
+    border: none;
+    border-radius: 2px;
+    background-color: $bg-tertiary;
+    text-align: center;   
+    color: $text-primary;
+    cursor: pointer;
+}
+
+.button__container {
+    @include dflex-center;
+}
+
+.button__icon {
+    font-size: 2rem;
+}
+
+.button--size-s {
+    padding: 0.5rem 1rem;
+}
+
+.button--size-l {
+    height: 3.8rem;
+    width: 15rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+

@@ -1,0 +1,171 @@
+//Home page layout and design specifics
+//Introduction section component
+.intro {
+    border-bottom: 10px solid $b-primary;
+}
+
+.intro__container {
+    min-height: 38rem;
+    @include dflex-center;
+    position: relative;
+}
+
+.intro__image-container {
+    position: absolute;
+    top: -90px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.intro__image {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;  
+}
+
+.intro__image-shadow {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 53rem 45rem -48rem $bg-primary inset, 0 -50rem 45rem -48rem $bg-primary inset;
+}
+
+.intro__text-container {
+    @include dflex-center;
+}
+
+.intro__heading {
+    width: 35rem; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__title { 
+    font-size: 3.125rem;
+    font-weight: 600;
+}
+
+.intro__subtitle {
+    font-size: 1.625rem;
+}
+
+//Animation section component
+.animation {
+    @include dflex-center;
+    padding: 2rem 3.5rem;
+    border-bottom: 10px solid $b-primary;
+} 
+
+.animation__container {
+    @include dflex-center;
+    max-width: 75rem;
+}
+
+.animation__heading {
+    margin: 0;
+    padding: 2rem;
+    width: 52%;
+}
+
+.animation__title {
+    margin: 0 0 0.7rem 0;
+    font-size: 3.125rem;
+}
+
+.animation__subtitle {
+    margin: 0;
+    font-size: 1.625rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.animation__media-container {
+    width: 48%;
+}
+
+.animation__media-container--order {
+    order: -1;
+}
+
+//FAQ section component
+.faq {
+    @include dflex-center;
+    padding: 4rem 0;
+    border-bottom: 10px solid $b-primary;
+}
+
+.faq__container {
+    max-width: 50rem;
+}
+
+.faq__title {
+    font-size: 3.125rem;
+    text-align: center;
+}
+
+.faq__quest-container {
+    margin: 0 auto 4rem auto;
+    width: 49rem;
+}
+
+.faq__qa-container {
+    margin-bottom: 0.5rem;
+    font-size: 1.625rem;   
+}
+
+.faq__question-container {
+    @include dflex-center;
+    padding: 1.8rem;
+    margin-bottom: 0.1rem;
+    background-color: $bg-secondary;
+    cursor: pointer;
+}
+
+.faq__heading {
+    flex-grow: 2;
+}
+
+.faq__icon {
+    height: 1.7rem;
+    width: 1.7rem;
+    fill: $text-primary;
+}
+
+.faq__answer {  
+    background-color: $bg-secondary;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.faq__text1 {
+    margin: 0 0 1rem;
+}
+
+.faq__text2 {
+    margin: 0rem;
+}
+
+//FAQ animation
+.is-closed {  
+    padding: 0;
+    max-height: 0;
+    transition: max-height 0.2s linear, padding 0s linear 0.2s;
+}
+
+.is-open { 
+    padding: 1.8rem;
+    max-height: 30rem;
+    transition: max-height 0.2s linear;   
+}
+
+.add-icon {
+    transform: rotate(45deg);
+}
+
+.cross-icon {
+    transform: rotate(-90deg);
+    margin-bottom: 0.5rem;
+}

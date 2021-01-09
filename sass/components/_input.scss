@@ -1,0 +1,36 @@
+//Input component
+.input {
+    position: relative;
+    height: 3.8rem;
+    width: 28rem;
+}
+
+.input__email {
+    height: 100%;
+    width: 100%;  
+    padding: 1.5rem 0.5rem 0.5rem;
+    border: 1px solid $b-secondary;
+    border-radius: 2px;
+    outline: none;
+    color: $text-tertiary;
+    font-size: 1.2rem;
+}
+
+//Floating label, acts as a placeholder
+.input__placeholder {
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    transform: translateY(-50%);
+    color: $text-placeholder;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.input__email:focus + .input__placeholder {
+    top: 0.5rem; 
+    transform: translateY(0);
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: 0.2s;
+}

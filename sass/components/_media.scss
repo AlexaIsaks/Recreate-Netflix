@@ -1,0 +1,92 @@
+//Animation section
+//Tv component
+.tv {
+    position: relative;   
+}
+
+.tv__image {
+    width: 100%;
+}
+
+.tv__video {
+    position: absolute;
+    top: 77px;
+    left: 50px;
+    z-index: -1;
+    transform: scale(0.9, 0.9);
+}
+
+.tv--scale {
+    transform: scale(0.95, 0.95);
+}
+
+//Download component
+.download {
+    position: relative;
+}
+
+.download__image1 {
+    width: 100%;
+}
+
+.download__video-container {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    @include dflex(row, wrap, space-between, center);
+    height: 6.4rem;
+    width: 23rem;
+    padding: 0.5rem;
+    
+    background-color: $bg-primary;
+    border: 3px solid $b-primary;
+    border-radius: 15px;
+}
+
+.download__image2 {
+    height: 100%;
+}
+
+.download__text-group {
+    margin-right: 4.6rem;
+}
+
+.download__gif {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat; //Netflix specification
+    background-size: 3rem 3rem;
+}
+
+.download--scale {
+    transform: scale(0.89, 0.89);
+}
+
+.download__text--bold {
+    font-weight: 600;
+}
+
+.download__text--blue {
+    color: $text-download;
+}
+
+//Devices component
+.devices {
+    position: relative;
+}
+
+.devices__image {
+    height: 100%;
+    width: 100%;
+}
+
+.devices__video {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    z-index: -1;
+    transform: scale(0.8, 0.8);
+}
