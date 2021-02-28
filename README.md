@@ -35,9 +35,9 @@ Applying SASS to the task was the core focus.
 
 ## Usage
 
-* Open the Multipage-website folder in your favourite code editor and click on the `copy-cat.html` file.
+* Open the Recreate-Netflix folder in your favourite code editor and click on the `copy-cat.html` file.
 
-* View the index.html using a live server. There are various extensions found on the Visual Studio Code Marketplace. 
+* View the copy-cat.html using a live server. There are various extensions found on the Visual Studio Code Marketplace. 
 
 * The webpage should look like this:
 
