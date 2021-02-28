@@ -1,6 +1,6 @@
 <h1 align="center">Recreate Netflix</h1>
 
-Recreate any published webpage to the best you can. Netflix webpage was chosen for this Task.
+Recreate any published webpage as best as you can. Netflix webpage was chosen for this task.
 
 ## Table of Contents
 
@@ -33,21 +33,18 @@ Applying SASS to the task was the core focus.
 
 * Press **Enter**. The repository will be cloned in your folder.
 
-  ![cloned repo](./readme-images/cloned-repo.jpg) 
-
 ## Usage
 
-* Open the Multipage-website folder in your favourite code editor and click on the `index.html` file.
-
-  ![open index.html](./readme-images/open-index.jpg) 
+* Open the Multipage-website folder in your favourite code editor and click on the `copy-cat.html` file.
 
 * View the index.html using a live server. There are various extensions found on the Visual Studio Code Marketplace. 
 
-  ![live server](./readme-images/live-server.jpg)
+* The webpage should look like this:
 
-* The index page should look like this:
-
-<p align="center"><img alt="index page" src="./readme-images/index-page.jpg" width="600"></p>
+<p align="center"><img alt="netflix page" src="./readme-images/netflix-1.jpg" width="600"></p>
+<p align="center"><img alt="netflix page" src="./readme-images/netfilx-2.jpg" width="600"></p>
+<p align="center"><img alt="netflix page" src="./readme-images/netfilx-3.jpg" width="600"></p>
+<p align="center"><img alt="netflix page" src="./readme-images/netfilx-4.jpg" width="600"></p>
 
 ## Acknowledgments
 
