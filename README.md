@@ -1,6 +1,6 @@
 <h1 align="center">Recreate Netflix</h1>
 
-Recreate any published webpage as best as you can. Netflix webpage was chosen for this task.
+Recreate any published webpage as best as you can. [Netflix](https://www.netflix.com/za/) webpage was chosen for this task.
 
 ## Table of Contents
 
