@@ -42,9 +42,9 @@ Applying SASS to the task was the core focus.
 * The webpage should look like this:
 
 <p align="center"><img alt="netflix page" src="./readme-images/netflix-1.jpg" width="600"></p>
-<p align="center"><img alt="netflix page" src="./readme-images/netfilx-2.jpg" width="600"></p>
-<p align="center"><img alt="netflix page" src="./readme-images/netfilx-3.jpg" width="600"></p>
-<p align="center"><img alt="netflix page" src="./readme-images/netfilx-4.jpg" width="600"></p>
+<p align="center"><img alt="netflix page" src="./readme-images/netflix-2.jpg" width="600"></p>
+<p align="center"><img alt="netflix page" src="./readme-images/netflix-3.jpg" width="600"></p>
+<p align="center"><img alt="netflix page" src="./readme-images/netflix-4.jpg" width="600"></p>
 
 ## Acknowledgments
 
